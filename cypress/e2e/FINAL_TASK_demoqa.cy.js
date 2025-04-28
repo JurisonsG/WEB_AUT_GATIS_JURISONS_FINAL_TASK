@@ -2,6 +2,7 @@ import { PracticeFormPage } from "../PageObjects.js/PracticeFormPage";
 
 describe('DemoQA Practice Form Automation', () => {
   it('should fill out and submit the form successfully', () => {
+    
     // Visit the practice form page
     PracticeFormPage.open();
 
